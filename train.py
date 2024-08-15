@@ -637,7 +637,7 @@ def main(opt, callbacks=Callbacks()):
 
     # Train
     if not opt.evolve:
-        mlflow.set_tracking_uri('http://mlflow.mlflow:5000')
+        mlflow.set_tracking_uri('http://mlflow-tracking.mlflow:5000')
         mlflow.set_experiment("retraining")
         with mlflow.start_run(run_name=opt.name):
             train(opt.hyp, opt, device, callbacks)
