@@ -1,3 +1,5 @@
+## This repository has been archived. New development is now done in GitLab at https://gitlab.octo-cx-prod.runshiftup.com/hatteras/yolov5
+
 <div align="center">
   <p>
     <a href="http://www.ultralytics.com/blog/ultralytics-yolov8-turns-one-a-year-of-breakthroughs-and-innovations" target="_blank">
